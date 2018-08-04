@@ -1,0 +1,48 @@
+/* You can add global styles to this file, and also import other style files */
+
+h1{
+    color: cornflowerblue
+}
+
+a{
+    background-color: #cfd8dc;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    color: #607d8b
+}
+a:link{
+    color: #607d8b
+}
+
+a:hover{
+    color: #039be5;
+    background-color: #cfd8dc
+}
+
+a.active{
+    color: #039be5
+}
+
+ul{
+    background-color: #cfd8dc;
+    width: 10%;
+    padding: 10px;
+    list-style-type: none;
+    border-radius: 3px;
+    color: #607d8b;
+    transition: 0.2s ease-in-out
+}
+
+ul:hover{
+    margin-left: 10px !important;
+    transition: 0.2s ease-in-out
+}
+
+span.badge{
+    padding: 10px;
+    color: #cfd8dc;
+    background-color: rgb(53, 98, 182);
+    margin-right: 3px;
+}
