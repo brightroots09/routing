@@ -8,6 +8,7 @@ import { ActivatedRoute, Router, ParamMap } from "@angular/router"
     </p>
     <a (click)="goPrevious()">Previous</a>
     <a (click)="goNext()">Next</a>
+    <button (click)="goBack()">Back</button>
   `,
   styles: []
 })
@@ -36,5 +37,9 @@ export class DepartmentDetailComponent implements OnInit {
     this.router.navigate(["/departments", next_id])
   }
 
+  goBack(){
+    let selectedId = this.department_id ? this.department_id : null
+    this.router.navigate(["/departments", {id: selectedId}])
+  }
 
 }

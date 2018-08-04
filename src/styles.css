@@ -41,6 +41,10 @@ ul:hover{
     transition: 0.2s ease-in-out
 }
 
+.selected{
+    background-color: paleturquoise;
+}
+
 li{
     padding: 10px 0px 10px 0px;
     text-indent: -25px;
